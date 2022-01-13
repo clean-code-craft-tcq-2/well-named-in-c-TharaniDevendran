@@ -79,7 +79,9 @@ int main() {
     {
 	    for(int j=0;j<numberOfMinorColors;j++)
 	    {
-		    printf("%d", Count+1,"\t\t\t\%s",MajorColorNames[i] ,"\t\t\t%s", MinorColorNames[j]);
+		    printf("%d\n", Count++);
+		    printf("\t\t\t\%s",MajorColorNames[i]);
+		    printf("\t\t\t%s\n", MinorColorNames[j]);
 	    }
     }
     return 0;
