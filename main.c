@@ -73,11 +73,11 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-    printf("Number\t\t\tMajorColor\t\t\tMinorColor")
+    printf("Number\t\t\tMajorColor\t\t\tMinorColor");
     int Count =0;
     for(int i =0; i<numberOfMajorColors;i++)
     {
-	    for(int j=0;j<numberOfMinorColors'j++)
+	    for(int j=0;j<numberOfMinorColors;j++)
 	    {
 		    printf("%d", Count+1,"\t\t\t\%s",MajorColor[i] ,"\t\t\t%s", MinorColor[j]);
 	    }
