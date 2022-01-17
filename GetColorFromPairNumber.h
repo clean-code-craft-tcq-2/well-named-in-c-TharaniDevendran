@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <assert.h>
-#include "struct.h"
 
 ColorPair GetColorFromPairNumber(int pairNumber)
 {
