@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "struch.h"
+#include "struct.h"
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
