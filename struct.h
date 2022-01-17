@@ -6,6 +6,6 @@ enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
-} Mystruct;
+} ColorPair;
  
-extern Mystruct ColorPair; 
+extern ColorPair ; 
