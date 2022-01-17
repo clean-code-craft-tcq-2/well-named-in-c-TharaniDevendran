@@ -3,7 +3,7 @@
 
 ColorPair GetColorFromPairNumber(int pairNumber)
 {
-    ColorPair colorPair;
+    extern ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
         (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
