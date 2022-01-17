@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <assert.h>
+#include "struch.h"
 
 void testPairToNumber(
     enum MajorColor major,
