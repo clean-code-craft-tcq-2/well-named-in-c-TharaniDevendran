@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "struct.h"
+#include <assert.h>
 
 void testPairToNumber(
     enum MajorColor major,
