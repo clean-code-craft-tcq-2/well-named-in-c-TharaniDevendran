@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include <assert.h>
 #include "struct.h"
+#include "testNumberToPair.h"
+#include "PairToNumber.h"
 
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
-int numberOfMajorColors =
-    sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
+const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet"};
+const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
-int numberOfMinorColors =
-    sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
+int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+
+const int MAX_COLORPAIR_NAME_CHARS = 16;
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
