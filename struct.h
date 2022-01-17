@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
