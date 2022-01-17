@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include "struct.h"
-
-const int MAX_COLORPAIR_NAME_CHARS = 16;
+#include "GetColorFromPairNumber.h"
+#include "ColorPairToString.h"
 
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor, enum MinorColor expectedMinor)
 {
