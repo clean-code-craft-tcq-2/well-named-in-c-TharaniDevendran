@@ -12,8 +12,8 @@ int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
-    testPairToNumber(BLACK, ORANGE, 12);
-   // testPairToNumber(VIOLET, SLATE, 25);
+    //testPairToNumber(BLACK, ORANGE, 12);
+   testPairToNumber(VIOLET, SLATE, 25);
     printf("Number\t\t\tMajorColor\t\t\tMinorColor");
     int Count =1;
     for(int i =0; i<numberOfMajorColors;i++)
