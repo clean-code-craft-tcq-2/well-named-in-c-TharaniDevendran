@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-extern const char* MajorColorNames[10] ;
-extern const char* MinorColorNames[10] ;
+extern const char* MajorColorNames[] ;
+extern const char* MinorColorNames[] ;
 
 extern int numberOfMajorColors ;
 extern int numberOfMinorColors ;
