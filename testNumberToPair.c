@@ -2,6 +2,7 @@
 #include <assert.h>
 #include "struct.h"
 
+const int MAX_COLORPAIR_NAME_CHARS = 16;
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor, enum MinorColor expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
