@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-extern const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet"};
-extern const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+extern const char* MajorColorNames[10] ;
+extern const char* MinorColorNames[10] ;
 
-extern int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-extern int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+extern int numberOfMajorColors ;
+extern int numberOfMinorColors ;
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
-extern enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-extern enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 typedef struct
 {
@@ -18,3 +18,7 @@ typedef struct
 } ColorPair;
 
 extern struct Colorpair colorPair;
+
+ColorPair GetColorFromPairNumber(int pairNumber);
+int GetPairNumberFromColor(const ColorPair* colorPair);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
