@@ -2,6 +2,12 @@
 #include <assert.h>
 #include "struct.h"
 
+const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
+const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+
+numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
+numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
