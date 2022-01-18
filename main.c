@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <assert.h>
-#include "testNumberToPair.h"
-#include "PairToNumber.h"
 #include "struct.h"
 
 int main() {
