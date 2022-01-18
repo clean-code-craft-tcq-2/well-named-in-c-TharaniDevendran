@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "GetColorFromPairNumber.h"
-#include "ColorPairToString.h"
+#include "struct.h"
 
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor, enum MinorColor expectedMinor)
 {
