@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include "struct.h"
+#include "ColorCoding.h"
 
 const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
