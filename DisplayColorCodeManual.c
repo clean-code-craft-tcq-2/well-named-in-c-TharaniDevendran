@@ -10,8 +10,9 @@ void DisplayColorCodeManual()
 	    for(int j=0;j<numberOfMinorColors;j++)
 	    {
 		    printf("\n%d", Count++);
-		    printf("\t\t\t\%s",MajorColorNames[i]);
+		    printf("\t\t\t%s",MajorColorNames[i]);
 		    printf("\t\t\t%s\n", MinorColorNames[j]);
 	    }
     }
+	displaycounter++;
 }
