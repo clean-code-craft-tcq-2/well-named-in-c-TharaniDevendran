@@ -14,5 +14,4 @@ void DisplayColorCodeManual()
 		    printf("\t\t\t%s\n", MinorColorNames[j]);
 	    }
     }
-	displaycounter++;
 }
