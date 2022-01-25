@@ -6,7 +6,7 @@ extern const char* MinorColorNames[] ;
 extern int numberOfMajorColors ;
 extern int numberOfMinorColors ;
 
-extern int displaycounter = 0;
+extern int displaycounter;
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
