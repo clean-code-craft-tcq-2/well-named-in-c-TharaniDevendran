@@ -2,7 +2,8 @@
 #include <assert.h>
 #include "ColorCoding.h"
 
-void VerifyDisplayColorCodeManual(void *DisplayColorCodeManual)
+void VerifyDisplayColorCodeManual(void *ColorCodeManual)
 {
+    ColorCodeManual();
     assert(displaycounter!=0);
 }
